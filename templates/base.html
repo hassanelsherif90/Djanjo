@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <h1>Hello World</h1>
+  <form action="/articles/" method="GET">
+
+    <input type="text" name='q' />
+    <input type="submit"/>
+  </form>
+
+  {% block content %}
+    <h3>The replace Content</h3>
+  {% endblock content %}
+
+</body>
+</html>
